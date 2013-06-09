@@ -1,0 +1,36 @@
+$iconSpritePath: "../images/glyphicons-halflings.png";
+$iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+$back-blue: #abc;
+$back-blue-bigtext: darken( $back-blue, 20% );
+$back-blue-weetext: lighten( $back-blue, 50% );
+
+body .hero-unit {
+  box-sizing: border-box;
+  padding: 20px 20px;
+  background-color: $back-blue;
+  color: white;
+  margin-top: 20px;
+}
+
+.hero-unit .massive {
+  font-size: 48pt;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  color: $back-blue-bigtext;
+}
+
+.hero-unit p {
+  color: $back-blue-weetext;
+}
+
+.hero-unit .q {
+  font-weight: bold;
+}
+
+.hero-unit .a {
+  margin-left: 10px;
+}
+ 
