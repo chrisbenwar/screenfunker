@@ -1,0 +1,23 @@
+.screenfunker {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('ajax-loader.gif');
+  opacity: 0.2;
+}
+
+.mySuperStyle {
+  height: 100px; 
+  background-color: #000; 
+  font-size: 20px; 
+  padding: 10px;
+}

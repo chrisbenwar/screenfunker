@@ -3,9 +3,13 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 
 @import 'sass-bootstrap/lib/bootstrap';
 
-$back-blue: #abc;
+$back-blue: #89a;
 $back-blue-bigtext: darken( $back-blue, 20% );
 $back-blue-weetext: lighten( $back-blue, 50% );
+
+body {
+  background-color: #666;
+}
 
 body .hero-unit {
   box-sizing: border-box;

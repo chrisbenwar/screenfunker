@@ -21,49 +21,43 @@
 		            <div class="hero-unit"> 
 		                <h1 class="massive">screenfunker</h1>
 		                
-		                <h3 class="q">What can I do with it?</h3>
+		                <p class="q">What can I do with it?</p>
 		                <p class="a">Take screenshots of parts of your web pages.</p>
 		                
-                    <h3 class="q">Can I see it in action?</h3>
-                    <p class="a">Sure. Here it is in action.</p>
-
-                    <div class="screenfunker demofunker">
-
-                      <div class="overlay"></div>
-
-                      <div class="error" style="display: none">
-                        Sorry but we couldn't make a screenshot this time.
-                      </div>
-
-                      <div class="content">
-                        <div class="mySuperStyle">I want to be screenfunked.</div>
-                      </div>
-
-                      <div class="output" style="display: none"></div>
-                    </div>
-
-		                <h3 class="q">How do I do it?</h3>
+		                <p class="q">How do I do it?</p>
 		                <p class="a">Like this.</p>
 		                <p>
 		                	<pre class="prettyprint linenums:1">
-&lt;div class=&quot;screenfunker demofunker&quot;&gt;
-
-&lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-
-&lt;div class=&quot;error&quot; style=&quot;display: none&quot;&gt;
-  Sorry but we couldn't make a screenshot this time.
+&lt;img src=&quot;nothing.png&quot; /&gt;
+&lt;div&gt;
+I want to be screen funked.
 &lt;/div&gt;
-
-&lt;div class=&quot;content&quot;&gt;
-  &lt;div class=&quot;mySuperStyle&quot;&gt;I want to be screenfunked.&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;output&quot; style=&quot;display: none&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;</pre>
+		                	</pre>
 		                	
-		                	<pre class="prettyprint linenums:1">$('demofunker').screenfunk();</pre>
+		                	<pre class="prettyprint">
+$('screenFunk').screenfunk(
+	
+);
+		                	</pre>
 		                </p>
 		                
+		                <p class="q">Can I see it in action?</p>
+						<p class="a">Sure. Here it is in action.</p>
+
+						<div class="screenfunker demofunker">
+
+              <div class="overlay"></div>
+
+              <div class="error" style="display: none">
+                Sorry but we couldn't make a screenshot this time.
+              </div>
+
+              <div class="content">
+								<div style="mySuperStyle">I want to be screenfunked.</div>
+							</div>
+
+							<div class="output" style="display: none"></div>
+						</div>
             
 		            </div>
 	            </div>
